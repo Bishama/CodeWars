@@ -21,4 +21,4 @@ var number=function(array){
     else{
       return [];
     }
-    
+}
