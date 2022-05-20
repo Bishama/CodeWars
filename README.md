@@ -14,4 +14,4 @@ I consistently refactor and optimize my code for efficiency and readability.
 
 ## Lessons Learned:
 
-The main Lesson I learned while solving this enormous supply of questions is to remain consistent. Not being able to answer a question or getting it right everytime is okay, as long as you remain consistent and try to improve everyday.
+The main lesson I learned while solving this enormous supply of questions is to remain consistent. Not being able to answer a question or getting it right everytime is okay, as long as you remain consistent and try to improve everyday.
