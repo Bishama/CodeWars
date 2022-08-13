@@ -8,7 +8,6 @@ function solve(s){
     // R => string
     // COdE => CODE,   cOde => code,    coDE => code
     
-    
     // Count uppercase letters in a string
     let upperLen = (s.match(/[A-Z]/g) || []).length;  
     console.log(upperLen)
