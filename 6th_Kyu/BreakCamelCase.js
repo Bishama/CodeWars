@@ -7,5 +7,5 @@ function solution(string) {
     //R => string
     // "camelCasing"  =>  "camel Casing"
     // "identifier"   =>  "identifier"
-    
+    return(string.replace(/([A-Z])/g, ' $1'));
 }
