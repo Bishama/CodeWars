@@ -23,7 +23,7 @@ function bouncingBall(h,  bounce,  window) {
     //  h = 3, bounce = 1, window = 1.5, result is -1 
     
     //Number of time ball is seen from the window
-    let seen = 0;
+    let seen = -1;
     console.log('running')
     //Ball will bounce 2/3rd of height each time it hit the ground
     if(h>0 && bounce<1 && bounce>0 && window<h){
