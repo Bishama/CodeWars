@@ -14,16 +14,6 @@ function solve(s){
     // Count uppercase letters in a string
     let lowerLen = (s.match(/[a-z]/g) || []).length;  
     console.log(lowerLen)
-    // Uppercase is more than the lowerCase
-    if (upperLen > lowerLen) {
-      return s.toUpperCase()
-    }
-    // Uppercase less than the lowerCase
-    if (upperLen < lowerLen) {
-      return s.toLowerCase()
-    }
-    //Uppercase equal to Lowercase
-    if (upperLen == lowerLen) {
-      return s.toLowerCase()
-    }
+    //Return string
+    return lowerLen >= upperLen ? s.toLowerCase() : s.toUpperCase()
   }
