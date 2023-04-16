@@ -6,7 +6,7 @@ A repository filled with codewars challenges (kata). Push 5 solutions every week
 
 **Tech used:** Javascript
 
-First thing I do in the morning is to solve a Codewar! 
+First thing I do everyday is to solve a Codewar! 
 
 ## Optimizations
 
