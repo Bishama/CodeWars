@@ -8,7 +8,6 @@ function sumOfCubedOdds(arr) {
       if (typeof arr[i] !== 'number') {
         return undefined; 
       }
-  
       if (arr[i] % 2 !== 0) {
         sum += Math.pow(arr[i], 3); 
       }
