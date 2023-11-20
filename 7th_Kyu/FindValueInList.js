@@ -22,14 +22,28 @@ function arrayToList(arr){
    }
    return arr;
  }
-
-
+ 
+ 
  function prepend(value, rest){
-  return {value,rest}
-}
-
- console.log(listToArray(arrayToList([10, 20, 30])));
+   return {value,rest}
+ }
+ 
+ function nth(list, position){
+   for(let i=0; i<position; i++){
+     list = list.rest
+   }
+   return list.value
+ }
+ 
+ //console.log(arrayToList([10, 20]));
+ // → {value: 10, rest: {value: 20, rest: null}}
+ //console.log(listToArray(arrayToList([10, 20, 30])));
  // → [10, 20, 30]
+ //console.log(prepend(10, prepend(20, null)));
+ // → {value: 10, rest: {value: 20, rest: null}}
+ console.log(nth(arrayToList([10, 20, 30]), 1));
+ // → 20
+ 
    /*let list = {
    value: 1,
    rest: {
