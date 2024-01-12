@@ -13,3 +13,6 @@ function arithmetic(a, b, operator){
         return a / b;
     }
 }
+
+
+
